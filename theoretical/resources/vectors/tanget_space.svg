@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   inkscape:export-ydpi="300"
+   inkscape:export-xdpi="300"
+   inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/reduction/tanget_space.png"
+   sodipodi:docname="tanget_space.svg"
+   id="svg47"
+   height="440"
+   width="640"
+   version="1.0">
+  <metadata
+     id="metadata51">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="svg47"
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="1920"
+     inkscape:cy="220"
+     inkscape:cx="211.25858"
+     inkscape:zoom="1.9863636"
+     showgrid="false"
+     id="namedview49"
+     inkscape:window-height="1025"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <title
+     id="title2">Tangentialvektor</title>
+  <defs
+     id="defs15">
+    <linearGradient
+       id="linearGradient3167">
+      <stop
+         offset="0"
+         style="stop-color:#e1e1e1;stop-opacity:0.77777779"
+         id="stop3169" />
+      <stop
+         offset="1"
+         style="stop-color:#cdcdcd;stop-opacity:0.40476191"
+         id="stop3171" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3175">
+      <stop
+         offset="0"
+         style="stop-color:#0000ff;stop-opacity:1"
+         id="stop3177" />
+      <stop
+         offset="1"
+         style="stop-color:#00003c;stop-opacity:1"
+         id="stop3179" />
+    </linearGradient>
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3181"
+       y2="203.43408"
+       x2="110.73028"
+       y1="171.1395"
+       x1="101.24868" />
+    <linearGradient
+       gradientTransform="rotate(-18.797191)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3183"
+       y2="225.98248"
+       x2="125.56466"
+       y1="203.37529"
+       x1="125.9691" />
+    <linearGradient
+       gradientTransform="rotate(-18.797191,0.04771172,-0.00982071)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3189"
+       y2="225.98248"
+       x2="125.56466"
+       y1="203.37529"
+       x1="125.9691" />
+    <linearGradient
+       gradientTransform="translate(0.00570912,0.01484985)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3175"
+       id="linearGradient3191"
+       y2="203.43408"
+       x2="110.73028"
+       y1="171.1395"
+       x1="101.24868" />
+    <radialGradient
+       gradientTransform="matrix(-0.9999772,0.00675196,-0.00395226,-0.5853373,513.51184,186.54827)"
+       gradientUnits="userSpaceOnUse"
+       xlink:href="#linearGradient3167"
+       id="radialGradient3175"
+       fy="77.433411"
+       fx="256.60583"
+       r="295.5"
+       cy="77.433411"
+       cx="256.60583" />
+  </defs>
+  <rect
+     id="rect17"
+     style="fill:#ffffff"
+     y="0"
+     x="0"
+     height="440"
+     width="640" />
+  <path
+     id="path19"
+     style="fill:#666666"
+     d="M 120,420 C 71.859661,240.14034 39.456158,168.50881 20,180 216.59639,52.947345 434.10531,90.157854 600,300 472.87707,231.63153 325.89469,276.28068 120,420 Z" />
+  <path
+     id="path21"
+     style="fill:#330000"
+     d="M 50,300 C 170,153.33333 290.38599,98.807006 403.71932,140.14034 291.71932,101.47367 171.66667,158 51,306 Z" />
+  <path
+     style="opacity:1;fill:url(#linearGradient3183);fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:3, 1;stroke-dashoffset:0;stroke-opacity:0.516279"
+     id="rect3172"
+     d="m 110.73027,184.66769 145.68587,-48.25195 c 1.81431,1e-5 3.5157,2.83273 1.51997,4.4656 l -144.96015,49.34053 z" />
+  <path
+     style="fill:url(#linearGradient3181);fill-opacity:1"
+     id="path24"
+     d="m 90,195 24.63714,-18.54856 c 7.02953,-1.75525 12.54002,13.07152 7.09711,17.62861 z" />
+  <polyline
+     id="polyline25"
+     points="110 300  20 110  330 70  610 170 110 300"
+     style="opacity:1;fill:url(#radialGradient3175);fill-opacity:1;stroke:#e1e1e1;stroke-opacity:0.259091" />
+  <ellipse
+     id="ellipse27"
+     style="opacity:0.5;fill:#ffffff"
+     ry="6"
+     rx="15"
+     cy="140"
+     cx="255" />
+  <path
+     id="path29"
+     style="fill:url(#linearGradient3189)"
+     d="M 110.73599,184.68255 256.42187,136.4306 c 1.81431,0 2.63123,1.81218 2.26837,3.46774 l -147.16,49.61267 z" />
+  <path
+     id="path31"
+     style="fill:url(#linearGradient3191)"
+     d="m 90.005708,195.01485 24.637152,-18.54856 c 7.02953,-1.75525 10.3175,8.62648 8.91141,14.63501 z" />
+  <text
+     id="text33"
+     style="font-style:italic;font-size:48px;font-family:'Nimbus Roman No9 L';fill:#000000"
+     y="341"
+     x="6">γ(t)</text>
+  <text
+     id="text35"
+     style="font-style:italic;font-size:48px;font-family:'Nimbus Roman No9 L';fill:#000000"
+     y="186"
+     x="69">υ</text>
+  <text
+     id="text37"
+     style="font-style:italic;font-size:48px;font-family:'Nimbus Roman No9 L';fill:#000000"
+     y="167"
+     x="272">x</text>
+  <text
+     id="text43"
+     style="font-style:italic;font-size:48px;font-family:'Nimbus Roman No9 L';fill:#000000"
+     y="49"
+     x="316">T<tspan
+   id="tspan39"
+   style="font-size:42px"
+   dy="5">x</tspan><tspan
+   id="tspan41"
+   style="font-size:48px"
+   dy="-5">M</tspan></text>
+  <text
+     id="text45"
+     style="font-style:italic;font-size:48px;font-family:'Nimbus Roman No9 L';fill:#000000"
+     y="318"
+     x="419">M</text>
+</svg>

@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="cryptoanalysis_models.svg">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect1578"
+       effect="bspline" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1409"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1248"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker3399"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Mend">
+      <path
+         transform="scale(0.4) rotate(180) translate(10,0)"
+         style="fill-rule:evenodd;stroke:#141414;stroke-width:1pt;stroke-opacity:1;fill:#141414;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3397" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path880"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#141414;stroke-width:1pt;stroke-opacity:1;fill:#141414;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect2347"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect2345"
+       effect="bspline" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2343"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2341"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2339"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1628"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1626" />
+    </marker>
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect1624"
+       effect="bspline" />
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1524"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1522" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1514"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="scale(1.1) rotate(180) translate(1,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         id="path1512" />
+    </marker>
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect1504"
+       effect="bspline" />
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       lpeversion="1"
+       is_visible="true"
+       id="path-effect1492"
+       effect="bspline" />
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1432"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1430"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect1428"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path892"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path871"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect869"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1432-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1430-5" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1524-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1522-5"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1514-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1512-2"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1628-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1626-1"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1628-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1626-6"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1628-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1626-3"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:collect="always"
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="Arrow2Lend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path892-2" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.28"
+     inkscape:cx="222.53888"
+     inkscape:cy="158.73469"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:snap-smooth-nodes="false"
+     inkscape:snap-midpoints="true"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
+     inkscape:window-x="1920"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
+    <sodipodi:guide
+       position="30.347549,281.66964"
+       orientation="1,0"
+       id="guide847" />
+    <sodipodi:guide
+       position="34.209136,272.46785"
+       orientation="0,-1"
+       id="guide849" />
+    <sodipodi:guide
+       position="30.347548,278.05728"
+       orientation="0,-1"
+       id="guide861" />
+    <sodipodi:guide
+       position="12.546984,270.96915"
+       orientation="1,0"
+       id="guide865" />
+    <sodipodi:guide
+       position="27.669404,266.97904"
+       orientation="0,-1"
+       id="guide1470" />
+    <sodipodi:guide
+       position="34.147098,272.46786"
+       orientation="1,0"
+       id="guide1602" />
+    <sodipodi:guide
+       position="43.583832,275.28436"
+       orientation="1,0"
+       id="guide1716" />
+    <sodipodi:guide
+       position="63.661477,272.94157"
+       orientation="1,0"
+       id="guide1720" />
+    <sodipodi:guide
+       position="53.622653,273.87611"
+       orientation="1,0"
+       id="guide1724" />
+    <sodipodi:guide
+       position="53.622653,275.02195"
+       orientation="0,-1"
+       id="guide1726" />
+    <sodipodi:guide
+       position="53.622652,272.46786"
+       orientation="0,-1"
+       id="guide1917" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       style="fill:#dedede;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect10"
+       width="26.272568"
+       height="18.403587"
+       x="17.211266"
+       y="15.330364"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       y="15.330364"
+       x="63.761478"
+       height="18.403587"
+       width="26.272568"
+       id="rect1484"
+       style="fill:#dedede;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="28.915512"
+       y="20.572935"
+       id="text857"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan855"
+         x="28.915512"
+         y="20.572935"
+         style="stroke-width:0.264583">A</tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       id="text1363"
+       y="25.532948"
+       x="26.654413"
+       style="font-weight:300;font-size:3.52777px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="font-size:3.52777px;stroke-width:0.264583"
+         y="25.532948"
+         x="26.654413"
+         id="tspan1361"
+         sodipodi:role="line">E(M)</tspan><tspan
+         style="font-size:3.52777px;stroke-width:0.264583"
+         y="29.942659"
+         x="26.654413"
+         sodipodi:role="line"
+         id="tspan1412" /></text>
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       y="22.367037"
+       x="26.547997"
+       height="4.3302259"
+       width="7.5991035"
+       id="rect1365"
+       style="fill:none;stroke:#000000;stroke-width:0.124071;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1432)"
+       d="m 27.669405,30.020968 c 0,0 0,-3.010914 0,-3.010914"
+       id="path1426"
+       inkscape:path-effect="#path-effect1428"
+       inkscape:original-d="M 27.669405,30.020968 V 27.010054"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:2.11667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="27.885679"
+       y="31.525782"
+       id="text1466"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1464"
+         x="27.885679"
+         y="31.525782"
+         style="font-size:2.11667px;stroke-width:0.264583">K<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan1732">E</tspan></tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       id="text1488"
+       y="20.572935"
+       x="75.465721"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="stroke-width:0.264583"
+         y="20.572935"
+         x="75.465721"
+         id="tspan1486"
+         sodipodi:role="line">B</tspan></text>
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 34.148332,24.534796 38.385998,1e-6"
+       inkscape:path-effect="#path-effect1492"
+       id="path1490"
+       d="m 34.148332,24.534796 c 0,0 38.385998,1e-6 38.385998,1e-6"
+       style="fill:none;stroke:#000000;stroke-width:0.149639;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1524)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:3.52777px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="73.204628"
+       y="25.532948"
+       id="text1498"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1494"
+         x="73.204628"
+         y="25.532948"
+         style="font-size:3.52777px;stroke-width:0.264583">D(C)</tspan><tspan
+         id="tspan1496"
+         sodipodi:role="line"
+         x="73.204628"
+         y="29.942659"
+         style="font-size:3.52777px;stroke-width:0.264583" /></text>
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       style="fill:none;stroke:#000000;stroke-width:0.124071;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1500"
+       width="7.5991035"
+       height="4.3302259"
+       x="72.846718"
+       y="22.367037"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       inkscape:original-d="M 74.21962,30.020968 V 27.010054"
+       inkscape:path-effect="#path-effect1504"
+       id="path1502"
+       d="m 74.21962,30.020968 c 0,0 0,-3.010914 0,-3.010914"
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1514)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       id="text1510"
+       y="31.525782"
+       x="74.43589"
+       style="font-weight:300;font-size:2.11667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="font-size:2.11667px;stroke-width:0.264583"
+         y="31.525782"
+         x="74.43589"
+         id="tspan1508"
+         sodipodi:role="line">K<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan1708">D</tspan></tspan></text>
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 80.504411,24.534778 5.869846,-2e-6"
+       inkscape:path-effect="#path-effect1624"
+       id="path1622"
+       d="m 80.504411,24.534778 c 0,0 5.869846,-2e-6 5.869846,-2e-6"
+       style="fill:none;stroke:#000000;stroke-width:0.150992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1628)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="52.115601"
+       y="23.079105"
+       id="text1712"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1710"
+         x="52.115601"
+         y="23.079105"
+         style="stroke-width:0.264583">C</tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       id="text1730"
+       y="23.079105"
+       x="18.250046"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="stroke-width:0.264583"
+         y="23.079105"
+         x="18.250046"
+         id="tspan1728"
+         sodipodi:role="line">M</tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       id="text1760"
+       y="23.079105"
+       x="84.922821"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="stroke-width:0.264583"
+         y="23.079105"
+         x="84.922821"
+         id="tspan1758"
+         sodipodi:role="line">M</tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       id="text1981"
+       y="8.5951738"
+       x="5.8803372"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="stroke-width:0.264583"
+         y="8.5951738"
+         x="5.8803372"
+         id="tspan1979"
+         sodipodi:role="line">Okolina</tspan></text>
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       y="69.958473"
+       x="17.211266"
+       height="18.403589"
+       width="26.272568"
+       id="rect10-2"
+       style="fill:#dedede;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       style="fill:#dedede;fill-opacity:1;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1484-7"
+       width="26.272568"
+       height="18.403589"
+       x="63.761475"
+       y="69.958473"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       id="text857-0"
+       y="75.20105"
+       x="28.915512"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="stroke-width:0.264583"
+         y="75.20105"
+         x="28.915512"
+         id="tspan855-9"
+         sodipodi:role="line">A</tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:3.52777px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="26.654411"
+       y="80.161064"
+       id="text1363-6"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1361-0"
+         x="26.654411"
+         y="80.161064"
+         style="font-size:3.52777px;stroke-width:0.264583">E(M)</tspan><tspan
+         id="tspan1412-6"
+         sodipodi:role="line"
+         x="26.654411"
+         y="84.570778"
+         style="font-size:3.52777px;stroke-width:0.264583" /></text>
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       style="fill:none;stroke:#000000;stroke-width:0.124071;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1365-2"
+       width="7.5991035"
+       height="4.3302259"
+       x="26.547997"
+       y="76.995148"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       inkscape:original-d="M 27.669405,84.649079 V 81.638165"
+       inkscape:path-effect="#path-effect2345"
+       id="path1426-6"
+       d="m 27.669405,84.649079 c 0,0 0,-3.010914 0,-3.010914"
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1432-7)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       id="text1466-1"
+       y="86.1539"
+       x="27.885681"
+       style="font-weight:300;font-size:2.11667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="font-size:2.11667px;stroke-width:0.264583"
+         y="86.1539"
+         x="27.885681"
+         id="tspan1464-8"
+         sodipodi:role="line">K<tspan
+   id="tspan1732-7"
+   style="font-size:1.37584px;baseline-shift:sub;stroke-width:0.264583">E</tspan></tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="75.465721"
+       y="75.20105"
+       id="text1488-9"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1486-2"
+         x="75.465721"
+         y="75.20105"
+         style="stroke-width:0.264583">B</tspan></text>
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       style="fill:none;stroke:#000000;stroke-width:0.149639;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1524-3)"
+       d="m 34.148333,79.162907 c 0,0 38.385994,10e-7 38.385994,10e-7"
+       id="path1490-0"
+       inkscape:path-effect="#path-effect2343"
+       inkscape:original-d="m 34.148333,79.162907 38.385994,10e-7"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       id="text1498-2"
+       y="80.161064"
+       x="73.204636"
+       style="font-weight:300;font-size:3.52777px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="font-size:3.52777px;stroke-width:0.264583"
+         y="80.161064"
+         x="73.204636"
+         id="tspan1494-3"
+         sodipodi:role="line">D(C)</tspan><tspan
+         style="font-size:3.52777px;stroke-width:0.264583"
+         y="84.570778"
+         x="73.204636"
+         sodipodi:role="line"
+         id="tspan1496-7" /></text>
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       y="76.995148"
+       x="72.846718"
+       height="4.3302259"
+       width="7.5991035"
+       id="rect1500-5"
+       style="fill:none;stroke:#000000;stroke-width:0.124071;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1514-6)"
+       d="m 74.219617,84.649079 c 0,0 0,-3.010914 0,-3.010914"
+       id="path1502-9"
+       inkscape:path-effect="#path-effect2341"
+       inkscape:original-d="M 74.219617,84.649079 V 81.638165"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:2.11667px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="74.43589"
+       y="86.1539"
+       id="text1510-2"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1508-2"
+         x="74.43589"
+         y="86.1539"
+         style="font-size:2.11667px;stroke-width:0.264583">K<tspan
+   id="tspan1708-8"
+   style="font-size:1.37584px;baseline-shift:sub;stroke-width:0.264583">D</tspan></tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       id="text1712-7"
+       y="77.707222"
+       x="52.115601"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         style="stroke-width:0.264583"
+         y="77.707222"
+         x="52.115601"
+         id="tspan1710-3"
+         sodipodi:role="line">C</tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="18.250048"
+       y="77.707222"
+       id="text1730-6"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1728-1"
+         x="18.250048"
+         y="77.707222"
+         style="stroke-width:0.264583">M</tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="84.922821"
+       y="77.707222"
+       id="text1760-2"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1758-9"
+         x="84.922821"
+         y="77.707222"
+         style="stroke-width:0.264583">M</tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:4.5861px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto Light';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="5.8803358"
+       y="63.223289"
+       id="text1981-3"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan1979-1"
+         x="5.8803358"
+         y="63.223289"
+         style="stroke-width:0.264583">Okolina</tspan></text>
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1762-9"
+       width="96.891472"
+       height="40.719769"
+       x="5.1769171"
+       y="58.800381"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <rect
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1762"
+       width="96.891472"
+       height="40.719769"
+       x="5.1769171"
+       y="4.1722665"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       id="path3179"
+       title="t sin(15*t)"
+       d="m 40.57076,73.004535 c 0.0031,-0.221457 0.0062,-0.442832 0.01669,-0.653227 0.01052,-0.210369 0.02844,-0.409632 0.06009,-0.588504 0.03164,-0.178816 0.07708,-0.337114 0.140511,-0.46852 0.06346,-0.131425 0.145026,-0.235785 0.246273,-0.310851 0.10125,-0.07501 0.222322,-0.120516 0.361863,-0.138425 0.139561,-0.01793 0.297653,-0.0082 0.470418,0.0234 0.172715,0.03156 0.360104,0.08495 0.556039,0.151141 0.195961,0.06617 0.400466,0.145143 0.606294,0.226034 0.205806,0.08091 0.412879,0.163653 0.613758,0.237162 0.200885,0.07357 0.395517,0.137764 0.577382,0.182969 0.181887,0.04519 0.350897,0.07122 0.502487,0.07123 0.151565,2.1e-5 0.285573,-0.0262 0.399957,-0.08162 0.11442,-0.05542 0.209079,-0.140264 0.284896,-0.253256 0.07576,-0.113017 0.132586,-0.254334 0.173958,-0.418639 0.04137,-0.16436 0.06727,-0.351749 0.08347,-0.553627 0.01619,-0.20186 0.0227,-0.418207 0.02661,-0.638368 0.0039,-0.220182 0.0054,-0.444098 0.0117,-0.660649 0.0064,-0.216539 0.01778,-0.425547 0.04093,-0.617074 0.02312,-0.191515 0.05814,-0.365356 0.109934,-0.514118 0.05185,-0.148735 0.120588,-0.272227 0.208816,-0.36671 0.08818,-0.0945 0.19595,-0.159843 0.322922,-0.196496 0.126985,-0.03669 0.273244,-0.04458 0.435726,-0.02833 0.162457,0.01627 0.341167,0.05671 0.530659,0.113292 0.189519,0.05657 0.389795,0.129229 0.593938,0.207606 0.204119,0.07839 0.41202,0.162374 0.616223,0.24089 0.204197,0.07846 0.404584,0.151285 0.594342,0.208108 0.189646,0.05696 0.368691,0.0976 0.531379,0.114369 0.16272,0.0168 0.309393,0.0092 0.436671,-0.02687 0.127249,-0.03609 0.235438,-0.101111 0.323936,-0.194981 0.08849,-0.09389 0.157677,-0.217074 0.209735,-0.365294 0.05205,-0.148219 0.08743,-0.321827 0.110706,-0.512962 0.02331,-0.191093 0.03499,-0.400032 0.04135,-0.616398 0.0064,-0.216324 0.008,-0.440309 0.01177,-0.660508 0.004,-0.220359 0.01036,-0.436766 0.02629,-0.638868 0.01616,-0.202258 0.04181,-0.389847 0.08279,-0.554598 0.04123,-0.164869 0.09771,-0.306492 0.173048,-0.420001 0.127497,-0.173195 0.192681,-0.327691 0.317962,-0.545852"
+       style="fill:none;fill-opacity:1;stroke:#141414;stroke-width:0.15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Mend);paint-order:markers fill stroke"
+       sodipodi:nodetypes="ccsccccccccsscssscccccccccccccsccccccc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       sodipodi:nodetypes="ccsccccccccsscssscccccccccccccsccccccc"
+       style="fill:none;fill-opacity:1;stroke:#141414;stroke-width:0.15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3399);paint-order:markers fill stroke"
+       d="m 66.645004,84.808471 c 0.04451,0.216961 0.089,0.433841 0.123914,0.641584 0.03488,0.207723 0.06015,0.406188 0.06763,0.587684 0.0075,0.18144 -0.0029,0.345802 -0.03667,0.48776 -0.03377,0.141984 -0.09103,0.261419 -0.173808,0.356468 -0.08279,0.09499 -0.191272,0.165429 -0.323716,0.212873 -0.132459,0.04747 -0.288955,0.0719 -0.464476,0.07812 -0.175463,0.0062 -0.369945,-0.0057 -0.575521,-0.02826 -0.205596,-0.02257 -0.422286,-0.0558 -0.64068,-0.09062 -0.218376,-0.03485 -0.438383,-0.07121 -0.650358,-0.09989 -0.211995,-0.02874 -0.415869,-0.04966 -0.603198,-0.05477 -0.187348,-0.0051 -0.358006,0.0058 -0.506065,0.03829 -0.148036,0.03251 -0.273292,0.08689 -0.373114,0.165568 -0.09986,0.07869 -0.174098,0.181874 -0.223894,0.308506 -0.04973,0.126645 -0.0749,0.276865 -0.08004,0.446221 -0.0051,0.169409 0.0098,0.35799 0.03731,0.558639 0.02752,0.20063 0.0676,0.413332 0.111036,0.629201 0.04345,0.215886 0.09005,0.434905 0.13038,0.647761 0.04023,0.212865 0.07398,0.419444 0.09248,0.611476 0.01853,0.192014 0.02164,0.36932 0.003,0.525732 -0.01872,0.156398 -0.05934,0.291766 -0.125234,0.402985 -0.06584,0.111225 -0.157073,0.198178 -0.273218,0.261231 -0.116149,0.06309 -0.257305,0.102192 -0.419488,0.121198 -0.162163,0.01898 -0.345388,0.01784 -0.542608,0.0033 -0.197245,-0.01457 -0.408449,-0.04255 -0.624657,-0.07528 -0.216187,-0.03275 -0.43727,-0.07015 -0.653566,-0.103003 -0.216279,-0.0328 -0.427627,-0.06091 -0.625159,-0.07568 -0.197452,-0.01492 -0.381047,-0.01619 -0.543543,0.0024 -0.162533,0.01852 -0.304156,0.05742 -0.420725,0.119975 -0.116536,0.06256 -0.208246,0.149291 -0.274532,0.259969 -0.06627,0.110695 -0.107407,0.245859 -0.126436,0.401799 -0.01902,0.155936 -0.01631,0.333092 0.002,0.524768 0.01825,0.191642 0.05169,0.398218 0.09192,0.610906 0.04018,0.212656 0.0867,0.431763 0.130282,0.647639 0.04339,0.216081 0.08363,0.428809 0.111456,0.62962 0.02763,0.201012 0.04284,0.389734 0.03818,0.559441 -0.0049,0.169877 -0.02964,0.320322 -0.07886,0.447356 -0.08735,0.196526 -0.117851,0.361412 -0.193383,0.60138"
+       title="t sin(15*t)"
+       id="path3395"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       xml:space="preserve"
+       style="font-weight:300;font-size:2.82222px;line-height:1;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;white-space:pre;inline-size:15.7348;stroke-width:0.264583"
+       x="64.984215"
+       y="66.251343"
+       id="text3537"
+       transform="translate(-14.739038,-2.6455979)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="64.984215"
+         y="66.251343"><tspan
+           style="font-size:2.82222px;text-align:end;text-anchor:end;stroke-width:0.264583">Odljev</tspan><tspan></tspan><tspan
+           y="66.251343"> </tspan></tspan><tspan
+         x="64.984215"
+         y="69.073565"><tspan
+           style="font-size:2.82222px;text-align:end;text-anchor:end;stroke-width:0.264583">informacija</tspan></tspan></text>
+    <text
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       transform="translate(23.523469,28.178971)"
+       id="text3537-4"
+       y="66.251343"
+       x="51.287903"
+       style="font-weight:300;font-size:2.82222px;line-height:1;font-family:Roboto;-inkscape-font-specification:'Roboto Light';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;white-space:pre;inline-size:15.7348;stroke-width:0.264583"
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         x="51.287903"
+         y="66.251343"><tspan
+           style="font-size:2.82222px;text-align:start;text-anchor:start;stroke-width:0.264583">Odljev</tspan><tspan></tspan><tspan
+           y="66.251343"> </tspan></tspan><tspan
+         x="51.287903"
+         y="69.073565"><tspan
+           style="font-size:2.82222px;text-align:start;text-anchor:start;stroke-width:0.264583">informacija</tspan></tspan></text>
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 18.262187,79.162905 c 0,0 7.973019,-2e-6 7.973019,-2e-6"
+       id="path867"
+       inkscape:path-effect="#path-effect869"
+       inkscape:original-d="m 18.262187,79.162905 7.973019,-2e-6"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/SCA_model.png"
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       style="fill:none;stroke:#000000;stroke-width:0.150992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1628-5)"
+       d="m 80.507857,79.162922 c 0,0 5.869846,-2e-6 5.869846,-2e-6"
+       id="path1622-5"
+       inkscape:path-effect="#path-effect1409"
+       inkscape:original-d="m 80.507857,79.162922 5.869846,-2e-6"
+       sodipodi:nodetypes="cc" />
+    <path
+       inkscape:export-filename="/home/euzenmendenzien/Documents/FER/semestar10/Diplomski/theoretical/paper/resources/images/traditional_model.png"
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       sodipodi:nodetypes="cc"
+       inkscape:original-d="m 18.262188,24.534794 7.973018,-2e-6"
+       inkscape:path-effect="#path-effect1578"
+       id="path867-9"
+       d="m 18.262188,24.534794 c 0,0 7.973018,-2e-6 7.973018,-2e-6"
+       style="fill:none;stroke:#000000;stroke-width:0.15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend-6)" />
+  </g>
+</svg>
