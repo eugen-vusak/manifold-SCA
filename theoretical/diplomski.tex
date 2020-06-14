@@ -557,7 +557,7 @@ Algoritam LLE (u najkraćim crtama):
 \begin{figure}[htb]
     \centering
     \includegraphics[width=12cm]{resources/images/reduction/lle_steps.jpg}
-    \captionsource{Ilustracija algoritma LLE}{TODO}
+    \captionsource{Ilustracija algoritma LLE}{\cite{saul2003think}}
     \label{fig:lle_steps}
 \end{figure}
 
@@ -592,7 +592,7 @@ Lokalno tangentno poravnanje prostora (\englnp{Local Tangent Space Alignment}, s
 \begin{figure}[htb]
     \centering
     \includegraphics[width=10cm]{resources/images/reduction/tanget_space.png}
-    \captionsource{Tangentni prostor $T_{x}M$ i tangentni vektor $v \in T_{x}M$, na krivulji koja prolazi $ x \in M$.}{TODO}
+    \captionsource{Tangentni prostor $T_{x}M$ i tangentni vektor $v \in T_{x}M$, na krivulji koja prolazi $ x \in M$.}{\cite{wikimedia2008tangent}}
     \label{fig:tanget_space}
 \end{figure}
 \bigskip
@@ -905,7 +905,7 @@ Nakon transformacije, skup podataka koji sada ima dimenziju $D_m$ postavlja se k
 
 \section{Rezultati}
 
-U tablicama \ref{tab:dpa_hw}-\ref{tab:rd_value} prezentirane su vrijednosti točnosti klasifikatora i minimalna dobivena vrijednost entropije pogađanja $GE_{min}$, a na slikama \ref{fig:dpa_hw}-\ref{fig:rd_value} prikazane su vrijednosti entropije pogađanja ovisne o broju tragova. Zbog prostornih ograničenja, prikazani podaci predstavljaju reprezentativni podskup testiranih scenarija. Rezultati svih dostupnih testiranja dostupni su na \{TODO: dodati github\}. Za tablice \ref{tab:dpa_hw}-\ref{tab:rd_value} uzete su vrijednosti deset najboljih metoda ne uključujući metodu "dummy", koja je zatim dodana zasebno. Na isti način, za slike \ref{fig:dpa_hw}-\ref{fig:rd_value} su odabrane tri najbolje vrijednosti (bez "dummy"), i dodatno referentna metoda "dummy". Na navedenim slikama isprekidanom sivom linijom označena je granica za koju smatramo da je napad bio uspješan, a metode su u legendi opisane oblikom "$\text{ime\_metode}(D_m, N_n)$", iako ako metoda ne koristi neke parametre oni su izostavljeni i iz naziva.
+U tablicama \ref{tab:dpa_hw}-\ref{tab:rd_value} prezentirane su vrijednosti točnosti klasifikatora i minimalna dobivena vrijednost entropije pogađanja $GE_{min}$, a na slikama \ref{fig:dpa_hw}-\ref{fig:rd_value} prikazane su vrijednosti entropije pogađanja ovisne o broju tragova. Zbog prostornih ograničenja, prikazani podaci predstavljaju reprezentativni podskup testiranih scenarija. Rezultati svih dostupnih testiranja dostupni su na https://github.com/eugen-vusak/manifold-SCA/blob/master/practical/reports/summary.xlsx. Za tablice \ref{tab:dpa_hw}-\ref{tab:rd_value} uzete su vrijednosti deset najboljih metoda ne uključujući metodu "dummy", koja je zatim dodana zasebno. Na isti način, za slike \ref{fig:dpa_hw}-\ref{fig:rd_value} su odabrane tri najbolje vrijednosti (bez  metode "dummy"), i dodatno referentna metoda "dummy". Na navedenim slikama isprekidanom sivom linijom označena je granica za koju smatramo da je napad bio uspješan, a metode su u legendi opisane oblikom "$\text{ime\_metode}(D_m, N_n)$", iako ako metoda ne koristi neke parametre oni su izostavljeni i iz naziva.
 
 \subsection{DPAcontest v4}
 Tablice \ref{tab:dpa_hw} i \ref{fig:dpa_value} pokazuju rezultate za skup podataka DPAcontest v4 dobivene za modele odljeva HW i value. Za HW model na tablici \ref{tab:dpa_hw} možemo vidjeti kako je najbolja metoda UMAP s vrlo malom redukcijom za samo 10 dimenzija. U kontrastu s time druge dvije najuspješnije metode su hibridne metode obije kod kojih je rezultantna dimenzija 10. Te metode koriste metode LTSA i MLLE kao osnovnu metodu. Metoda LLE pokazala se relativno uspješnom s raznim rasponom parametara. Bitno je naglasiti da su ove metode postigle mnogo bolje rezultate od referentne metode. Za ovaj specifični eksperiment pokazalo se da dimenzija 10 s 30 najbližih susjeda globalno pokazuje najbolje rezultate. Također vidljivo je da visoka točnost ne rezultira nužno dobrim rezultatima u kontekstu entropije pogađanja. Na slici \ref{fig:dpa_hw} vidljivo je da je razlika između prve tri metode relativno velika, te da ovisno o metodi broj potrebnih tragova može odstupati za približno 40.
@@ -1133,8 +1133,7 @@ U prošlom odjeljku težina je bila na specifičnim skupovima podataka, dok u ov
 Također, pokazalo se kako smanjivanje dimenzije metodom rijetkih slučajnih projekcija prije nego što se izvodi učenje mnogostrukosti, osim što smanjuje trajanje izvođenja algoritma, dodatno i povećava performanse u kontekstu analize koja koristi sporedna sredstva. Postoji manjak empirijskih istraživanja na ovu temu, te ona definitivno prezentira razne mogućnosti. 
 
 Za korištene skupove podataka pokazalo se kako iako HW model ima značajno veću točnost, koristeći mjeru entropije pogađanja, u ovom kontekstu boljim se modelom pokazao value model. Kod HW modela je za očekivati veća točnost klasifikacije jer je jednostavnije napraviti klasifikaciju u 9 razreda nego u 256 razreda. Što se tiče boljih ukupnih performansi na value modelu, jedno moguće objašnjenje je da ako na kreaciju sporednih sredstava gledamo kao neku transformaciju originalnih podataka $P$ u sporedna sredstva $S$, $\Phi: P \mapsto S$, na učenje mnogostrukosti možemo gledati kao traženje inverzne transformacije $\Phi^{-1}: S \mapsto P$. Ovaj zadatak je lakši kada imamo direktne vrijednosti dobivene mjerenjem nego kada je uvedena dodatna razina, u ovom slučaju Hammingova težina. 
-
-Bolju efikasnost napada može se postići optimizacijom hiperparametara klasifikatora ili korištenjem dodatnih klasifikatora.
+Bolju efikasnost napada moguće je postići optimizacijom hiperparametara klasifikatora ili korištenjem dodatnih klasifikatora.
 
 \chapter{Zaključak}
 Zaključak.
