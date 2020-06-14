@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Practical 
+# # Huge reports
+practical/reports/parts
+practical/reports/report_accuracy.csv
+practical/reports/report_GE_SR.csv
+practical/reports/report_GE_summary.csv
+
+# # Data
+practical/data/
+practical/data.zip
+practical/example/
