@@ -1133,22 +1133,22 @@ Za korištene skupove podataka pokazalo se kako iako HW model ima značajno već
 Bolju efikasnost napada moguće je postići optimizacijom hiperparametara klasifikatora ili korištenjem dodatnih klasifikatora.
 
 \chapter{Zaključak}
-Zaključak.
+U ovom diplomskom radu razmatrala se primjena postupaka učenja mnogostrukosti za povećavanje učinkovitosti analize koja koristi sporedna sredstva kriptografskih uređaja (SCA) te su detaljno opisana oba polja analize sporednih sredstava i redukcije dimenzionalnosti. Za SCA dan je uvid u granu, opisane su osnove sporednih sredstava i napravljena je taksonomska podjela ove grane. Nakon toga su opisani razni napadi te širina njihove primjene. Zatim su opisane i razne implementirane protumjere protiv SCA napada. Uz SCA proučena je i ideja redukcije dimenzionalnosti koja je u ovom radu podijeljena na dvije velike pod skupine, a to su linearna redukcija dimenzionalnosti i učenje mnogostrukosti (nelinearna redukcija dimenzionalnosti). Naglasak u ovom radu je na metode učenja mnogostrukosti te je iz skupine linearne redukcije kao jedna od referentnih metoda uzeta i vrlo popularna metoda PCA. Osim PCA, dodatna referentna vrijednost u ovom radu je kako se izvedeni eksperimenti ponašaju kada nije implementirana nikakva redukcija dimenzionalnosti. Uz ovo korištena je dodatno hibridna metoda redukcije dimenzionalnosti koja prije metoda učenja mnogostrukosti izvršava jednostavniju metodu rijetkih slučajnih projekcija kako bi se napravila redukcija u međuprostor na kojem se onda provode opisane metode. Iz dobivenih rezultata vidljivo je da su korištene metode vrlo osjetljive na promjenu hiperparametara te je njihova optimizacija ključna za postizanje dobrih rezultata. Također, generalno se pokazalo kako je bolje koristiti model koji uzima međuvrijednosti u ovom kontekstu, nego model s Hammingovom težinom, koji se češće smatra boljim. Prezentirana hibridna metoda pokazala se kao izvrstan način za ne samo skraćivanje vremena izvođenja, već i za postizanje boljih rezultata. Dodatne kombinacije jednostavnijih i složenijih metoda su moguće koje imaju potencijal rezultirati i boljim performansama. Primjerice umjesto rijetkih slučajnih projekcija u istu se svrhu mogu koristiti i gaussianske slučajne projekcije. Korištenje ovakvih metoda moglo bi rezultirati još boljim rezultatima na više dimenzionalnim skupovima i na njima uvesti velike doprinose u kontekstu efikasnosti algoritma za redukciju dimenzionalnosti. Također bolji rezultati napada mogu se postići odabirom specifičnog klasifikatora i njegovih parametara za željenu metodu redukcije dimenzionalnosti. Ovo nije bilo u okviru ovog radate je cilj bio usporediti razne tehnike učenja mnogostrukosti u kontekstu SCA. Usprkos tome na svim skupovima uspješno je postignuta dovoljno niska entropija pogađanja koristeći relativno mali skup značajki veličine 50. Na skupu podataka koji implementira slučajno kašnjenje kao protumjeru postignuti su odlični rezultati te je dovoljno niska vrijednost entropije pogađanja postignuta nakon prosječno 2000 tragova.
 
 
 \bibliography{literatura}
 \bibliographystyle{fer}
 
 \begin{sazetak}
-    Sažetak na hrvatskom jeziku.
+    Cilj ovog diplomskog rada je razmotriti primjenu postupaka učenja mnogostrukosti kako bi se povećala učinkovitost analize koja koristi sporedna sredstva kriptografskih uređaja (SCA). U sklopu toga detaljno su opisana oba polja SCA i redukcije dimenzionalnosti te za njih ponaosob metode korištene u tom polju. Iako je naglasak u ovom radu na metode učenja mnogostrukosti, kao jedna od referentnih metoda uzeta je i vrlo popularna metoda PCA. Dodatno je korištena hibridna metoda redukcije dimenzionalnosti koja prije metoda učenja mnogostrukosti izvodi metodu rijetkih slučajnih projekcija kako bi se napravila redukcija u međuprostor. Za konačnu klasifikaciju koristi se metoda slučajnih šuma zbog velike otpornosti na smetnje.
 
-    \kljucnerijeci{Ključne riječi, odvojene zarezima.}
+    \kljucnerijeci{učenje mnogostrukosti, analiza koja koristi sporedna svojstva (SCA), entropija pogađanja (GE), redukcija dimenzionalnosti, AES}
 \end{sazetak}
 
 \begin{abstract}
-    Abstract.
+    This thesis aims to study the application of manifold learning techniques with the intent of increasing the efficiency of side-channel analysis (SCA). With this in mind,  both SCA, dimensionality reduction fields, and their respected practices are described. Even though the emphasis in this paper is on manifold learning, as one of the reference methods, highly popular PCA method was adopted. Additionally, a hybrid dimensionality reduction method was applied, in which, before the manifold learning method, sparse random projections are performed to reduce data into interspace. The random forest method is used for the final classification due to its high resistance to noise.
 
-    \keywords{Keywords.}
+    \keywords{manifold learning, side-channel analysis (SCA), guessing entropy (GE), dimensionality reduction, AES}
 \end{abstract}
 
 \end{document}
