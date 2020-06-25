@@ -207,7 +207,7 @@ FUNCTION {format.names}
               if$
               t "others" =
                 { " et~al." * }
-                { " i " * t * }
+                { " " * t * }
               if$
             }
           if$
