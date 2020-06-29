@@ -6,6 +6,11 @@
 \usepackage{floatrow}
 \usepackage{pgfplots}\pgfplotsset{compat=1.16}
 
+% PDF/A
+\usepackage{colorprofiles}
+\usepackage[a-2b,mathxmp]{pdfx}[2018/12/22]
+\usepackage{hyperref}
+
 % \usepackage{hyperref}
 
 \newtheorem{definition}{Definicija}         % definicija
@@ -31,7 +36,7 @@
 
 \author{Eugen Vušak}
 
-\maketitle
+% \maketitle
 
 % Ispis stranice s napomenom o umetanju izvornika rada. Uklonite naredbu \izvornik ako želite izbaciti tu stranicu.
 % \izvornik
@@ -341,14 +346,20 @@ Linearno smanjenje dimenzionalnosti \engl{linear dimensionality reduction} je na
 
 \begin{definition}[Linearna transformacija]
     Neka $V$ i $W$ budu vektorski prostori na istom polju $K$. Tada za funkciju $f: V \mapsto W$ kažemo da je linearna transformacija (mapiranje) ako uz $\forall u,v \in V$ i $\forall c \in K$, vrijede sljedeća svojstva:
-    \begin{center}
-        \begin{varwidth}{\textwidth}
-            \begin{enumerate}
-                \item $f(u + v) = f(u) + f(v)$
-                \item $f(cu) = cf(u)$
-            \end{enumerate}
-        \end{varwidth}
-    \end{center}
+
+    \mbox{}\vspace{\dimexpr-\baselineskip-\topsep}
+    \begin{enumerate}[label=(\roman*)]
+        \item $f(u + v) = f(u) + f(v)$
+        \item $f(cu) = cf(u)$
+    \end{enumerate}
+    % \begin{center}
+    %     \begin{varwidth}{\textwidth}
+    %         \begin{enumerate}
+    %             \item $f(u + v) = f(u) + f(v)$
+    %             \item $f(cu) = cf(u)$
+    %         \end{enumerate}
+    %     \end{varwidth}
+    % \end{center}
 \end{definition}
 Dakle, može se reći da je linearna transformacija ona koja očuva operacije zbrajanja i množenja.
 
@@ -598,7 +609,7 @@ Lokalno tangentno poravnanje prostora (\englnp{Local Tangent Space Alignment}, s
 Ideja LTSA je da postoji linearno preslikavanje iz visokodimenzionalnog prostora u kojem leže originalni podaci u njegov lokalni tangentni prostor i da za odgovarajući niskodimenzionalni prostor postoji preslikavanje u isti taj lokalni tangentni prostor. Za LTSA i HLLE pokazano je da su matematički vrlo slični uz sitne razlike, poput toga da LTSA uključuje trenutnu točku u susjedstvo, dok HLLE ne te da iako koriste različite metode za rješavanje jednadžbe poravnanja, rješenje je jednako ako se uzme da HLLA koristi isti način izgradnje susjedstva kao LTSA \citep{7837655}
 
 
-\subsection{Ugradnja pomoću t-distribuiranog stohastičkog susjeda --\\ t-SNE}
+\subsection[Ugradnja pomoću t-distribuiranog stohastičkog susjeda -- t-SNE]{Ugradnja pomoću t-distribuiranog stohastičkog susjeda --\\ t-SNE}
 Ugradnja pomoću t-distribuiranog stohastičkog susjeda (\englnp{t-distributed Stochastic Neighbor Embedding}, skrać. t-SNE) relativno je novija metoda koja traži nižedimenzionalnu strukturu tako da svojstva grupiranja ostanu sačuvana, gradeći neizrazitu \engl{fuzzy} topološku strukturu. Ovu metodu objavili su \cite{maaten2008visualizing} kao metodu za vizualizaciju podataka visokodimenzionalnih podataka tako da se svakoj točki da lokacija niskodimenzionalnom skupu. To radi tako da pretvara srodstvo točaka u vjerojatnosti. Srodstva u izvornom prostoru predstavljena su Gaussovim zajedničkim vjerojatnostima, dok u ugrađenom prostoru su predstavljeni t-razdiobama. t-SNE metoda je varijacija ugrađivanja stohastičkog susjeda \engl{Stochastic Neighbor Embedding} koja je puno jednostavnija za optimizaciju te pruža vizualno puno bolje rezultate tako što smanjuje tendenciju podataka da se gomilaju u centru mape.
 \begin{figure}[htb]
     \centering
@@ -611,7 +622,9 @@ t-SNE koristi Studentovu t-razdiobu za dobiveni prostor, a ne normalnu kao za or
 
 Kako bismo dobili distribuciju u ugrađenom prostoru Kullback-Leiblerova divergencija zajedničkih vjerojatnosti u izvornom prostoru i ugrađenom prostoru se minimizirana gradijentnim spustom. Treba primijetiti da KL divergencija nije konveksna, stoga je ponekad korisno program pokrenuti više puta koristeći drugo sjeme za ostvarenje slučajnosti. t-SNE je računalno vrlo zahtjevan te na uzorku s puno primjera potrebno je i nekoliko sati da završi te se iz tog razloga i svoje svojstvenosti da sačuva grupiranje uglavnom koristi za vizualizaciju podataka.
 
-\subsection{Uniformna aproksimacija i projekcija mnogostrukosti --\\ UMAP}
+
+% [this is a very long title I want to break manually]{\texorpdfstring{this is a very long title I\\ want to break manually}{this is a very long title I want to break manually}}
+\subsection[Uniformna aproksimacija i projekcija mnogostrukosti -- UMAP]{Uniformna aproksimacija i projekcija mnogostrukosti --\\ UMAP}
 
 Posljednja velika metoda smanjenja dimenzionalnosti, naziva se uniformna aproksimacija i projekcija mnogostrukosti (\englnp{Uniform Manifold Approximation and Projection}, skrać. UMAP), a objavili su je \cite{mcinnes2018umap}. Ona pruža iznimne rezultate vizualno slične onima od t-SNE metode ali, zbog svoje snažne matematičke pozadine, ima mogućnost generalizacije na neviđenim podacima. Također, metoda UMAP puno bolje radi s većim skupovima podataka te je na, primjerice, skupu podataka "GoogleNews" 19 puta brža od t-SNE metode čije izvođenje traje 4.5 sati dok UMAP isti posao odradi u 14 minuta. Doduše, ova metoda pretpostavlja dva svojstva; da su podaci uniformno distribuirani i da je mnogostrukost lokalno povezana. Drugo svojstvo ne znači da je potrebno da cijela mnogostrukost bude povezana, već samo da ne postoji npr. točka koja je sama udaljena od svih. Ova pretpostavka je razumna za podatke iz stvarnog svijeta. Što se svojstva uniformnosti tiče, kako bi ga se osiguralo korisnik mora biti svjestan ovoga te po potrebi napraviti predobradu početnog skupa podataka. UMAP gradi graf susjedstva pomoću stabla slučajnih projekcija (\englnp{Random projection trees}, skrać. RP-trees) i spust najbližih susjeda (\englnp{Nearest Neighbor Descent}, skrać. NN-descent). Ovi vrlo efikasni algoritmi omogućuju brz pronalazak najbližih susjeda i izgradnju grafa.
 

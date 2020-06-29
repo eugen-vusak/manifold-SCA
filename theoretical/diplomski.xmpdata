@@ -1,0 +1,11 @@
+\Title        {Manifold Learning Techniques for Increased Efficiency of Side-Channel Analysis}
+
+\Author       {Eugen Vušak}
+
+\Keywords     {manifold learning\sep
+               side-channel analysis (SCA)\sep
+               guessing entropy (GE)\sep
+               dimensionality reduction\sep
+               AES}
+
+\Subject      {This master's thesis aims to study the application of manifold learning techniques with the intent of increasing the efficiency of side-channel  analysis (SCA). With this in mind, both SCA and dimensionality reduction fields, along with their respected practices, are described. Even though the emphasis  in this paper is on manifold learning, as one of the reference methods, the highly popular PCA method for dimensionality reduction was also considered.  Additionally, a hybrid dimensionality reduction method was applied, in which, before the manifold learning method, sparse random projections are performed to  transform data into interspace. The random forest method is used for the final classification due to its high resistance to noise.}
